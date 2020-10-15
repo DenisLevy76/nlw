@@ -1,0 +1,35 @@
+* {
+   margin: 0px;
+   padding: 0px;
+   box-sizing: border-box;
+}
+
+:root {
+   font-size: 62.5%;
+}
+
+body {
+   height: 100vh;
+   color: white;
+   background-color: #EBF2F5;
+
+}
+
+button,
+body,
+input,
+textarea {
+   font: 400 1.8rem/1 'Nunito', sans-serif;
+}
+
+::-webkit-scrollbar {
+   width: .5rem;
+   height: .5rem;
+}
+ 
+::-webkit-scrollbar-thumb {
+   -webkit-border-radius: 10px;
+   border-radius: 10px;
+   background: rgba(70, 70, 70, 0.8); 
+   /* -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);  */
+}

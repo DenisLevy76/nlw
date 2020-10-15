@@ -1,0 +1,107 @@
+
+.orphanage-details > img{
+   width: 100%;
+   height: 33.6rem;
+
+   object-fit: cover;
+}
+
+.images{
+   display: grid;
+   grid-template-columns: repeat(6, 1fr);
+   column-gap: 1.6rem;
+   margin: 2.4rem 3.2rem 0 3.2rem;
+   height: 92px;
+}
+
+.images button img{
+   width: 100%;
+   height: 9.2rem;
+
+   border: none;
+   background:none;
+
+
+   object-fit: cover;
+}
+
+.images button{
+   border:none;
+   background:none;
+   border-radius: 2rem;
+
+   opacity: .7;
+
+   overflow: hidden;
+   outline: none;
+
+}
+
+.images button:hover, .images .active{
+   opacity: 1;
+   cursor: pointer;
+}
+
+.orphanage-info{
+   /* text-align: center; */
+   padding: 8rem;
+
+}
+
+.orphanage-info h1{
+   font-size: 5.4rem;
+   line-height: 1;
+   margin-bottom: 3.2rem;
+   margin-top: 0px;
+}
+
+.orphanage-info p{
+   font-size: 1.8rem;
+   line-height: 1.5;
+   margin-bottom: 6.4rem;
+}
+
+.map-container{
+   background: #E6F7FB;
+
+   border: 1px solid #B3DAE2;
+   border-radius: 2rem;
+
+   margin-bottom: 6.4rem;
+}
+
+
+
+.orphanage-info h2{
+   font-size: 3.6rem; 
+   margin-bottom: 2.4rem;
+}
+
+.details{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   column-gap: 2rem;
+}
+
+.opening-hours{
+   background: linear-gradient(149.97deg, #E6F7FB 8.13%, #FFFFFF 92.67%);
+   border: 1px solid #B3DAE2;
+   box-sizing: border-box;
+   border-radius: 20px;
+   padding: 20px;
+
+
+   color: #5C8599;
+}
+
+.open-on-weekends{
+   background: linear-gradient(154.16deg, #EDFFF6 7.85%, #FFFFFF 91.03%);
+
+   border: 1px solid #A1E9C5;
+   box-sizing: border-box;
+   border-radius: 20px;
+   padding: 20px;
+
+   color: #37C77F;
+}
+

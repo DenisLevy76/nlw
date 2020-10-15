@@ -1,0 +1,18 @@
+#mapid{
+   width: 100%;
+   height: 22.7rem;
+
+   border-radius: 2rem;
+
+   z-index: 2;
+}
+
+.map-container footer{
+   padding: 2rem 0;
+   text-align: center;
+}
+
+.map-container footer a{
+   color: #0089A5;
+   text-decoration: none;
+}
